@@ -1,3 +1,17 @@
+/* Footer Section */
+div#footer {
+  text-align: center;
+  font-weight: lighter;
+  position:relative;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#000000;
+  background-color: #fbc5e2;
+  padding:8px;
+}
+
+
 /* Navbar Section */
 .navbar {
   background: #ffe6f4;
