@@ -50,3 +50,15 @@ body {
   color: #ff1ead;
   text-decoration: none;
 }
+
+.details__subtitle {
+  font-size: 70px;
+  text-align: center;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffb3c9 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffb3c9 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

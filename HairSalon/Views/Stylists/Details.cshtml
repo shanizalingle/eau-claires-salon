@@ -3,13 +3,22 @@
 }
 <link rel="stylesheet" href="~/css/details.css">
 @model HairSalon.Models.Stylist
-
+@using HairSalon.Models
 <div class="details__container">
   <div class="details__title">
     <h1>Stylist Details</h1>
   </div>
   <div class="details__display">
-    <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+    <p>@Html.DisplayFor(model => model.Name)</p>
+  </div>
+  <div class="details__subtitle">
+    <p>Clients</>
+  </div>
+  <div class="details__display">
+      @foreach (Client client in Model.Clients)
+      {
+        <li>@Html.ActionLink($"{client.Name}", "Details", "Clients", new { id = client.ClientId }) | @client.Stylist.Name</li>
+      }
   </div>
   <div class="details__links">
     <p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
