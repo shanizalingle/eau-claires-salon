@@ -1,12 +1,19 @@
 @{
   Layout = "_Layout";
 }
-
+<link rel="stylesheet" href="~/css/details.css">
 @model HairSalon.Models.Stylist
 
-<h2>Stylist Details</h2>
-<hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
-<p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<div class="details__container">
+  <div class="details__title">
+    <h1>Stylist Details</h1>
+  </div>
+  <div class="details__display">
+    <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
+  </div>
+  <div class="details__links">
+    <p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
+    <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+  </div>
+</div>

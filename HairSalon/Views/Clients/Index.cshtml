@@ -1,20 +1,24 @@
 @{
   Layout = "_Layout";
 }
-
+<link rel="stylesheet" href="~/css/index.css">
 @using HairSalon.Models;
 @model List<HairSalon.Models.Client>;
 
-<h1>Clients</h1>
+<div class="index__container">
+  <div class="index__title">
+    <h1>Clients</h1>
+  </div>
+    <div class="index__list">
+      @if (@Model.Count == 0)
+      {
+        <h3>No clients have been added yet!</h3>
+      } 
 
-@if (@Model.Count == 0)
-{
-  <h3>No clients have been added yet!</h3>
-} 
-
-@foreach (Client client in Model)
-{
-  <li>@Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId }) | @client.Stylist.Name</li>
-}
-
-<p>@Html.ActionLink("Add new client", "Create")</p>
+      @foreach (Client client in Model)
+      {
+        <li>@Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId }) | @client.Stylist.Name</li>
+      }
+  </div>
+  <button class="index__new__btn2">@Html.ActionLink("Book", "Create")</button>
+</div>

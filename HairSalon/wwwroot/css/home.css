@@ -1,29 +1,166 @@
+/* Home Section */
 
-/* Main section */
-.main {
-  background: #fbc5e2;
+.home {
+  background-image:  url("../img/salon.webp");
+  background-position: center;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  padding: 10rem 0;
+}
+
+.home__container h1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+  text-align:left;
+  margin-left: 3.5rem;
+  font-style: italic;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fd53a5 0%, #ffb3de 100%);  
+  background: linear-gradient(to top, #fd53a5 0%, #ffb3c9 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.home__btn {
+  font-size: 1.8rem;
+  text-align: center;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 60rem;
+  margin-left:3.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.home__btn a {
+  position: relative;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.home__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff1ead;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.home__btn:hover {
+  color: rgb(0, 0, 0);
+}
+
+.home__btn:hover:after {
+  width: 100%;
+}
+
+
+/* Services Section */
+.services {
+  background-color: #ffe2f2;
+  background-image: linear-gradient(to top, #ffe2f2 0%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
+
+.services h1 {
+  color:rgb(0, 0, 0);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 4.5rem;
+}
+
+.services__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.services__card {
+  text-align: center;
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: url("../img/hair.jpeg");
+  background-position: center;
+  background-size:cover;
+  transition: 0.3s ease-in;
+}
+
+.services__card:nth-child(2) {
+  background-image: url("../img/skin.jpeg");
+  background-position: center;
+  background-size:cover;
+}
+
+.services__card:nth-child(3) {
+  background-image: url("../img/nails.jpeg");
+  background-position: center;
+  background-size:cover;
+}
+
+.services__card:nth-child(4) {
+  background-image: url("../img/lashes.webp");
+  background-position: center;
+  background-size:cover;
+}
+
+.services__card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+/* signup section */
+.signup {
+  background: #ffe2f2;
   padding: 200px 0;
 }
 
-.main__container {
+.signup__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  height: 90%;
+  height: 100%;
   text-align: center;
   padding: 30px;
 }
 
-.main__heading {
+.signup__heading {
   font-size: 100px;
   margin-bottom: 24px;
   color: rgb(0, 0, 0);
 }
 
-.main__description {
+.signup__description {
   font-size: 50px;
   background: #ee9ca7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffb3c9 100%);  
@@ -34,7 +171,7 @@
   -moz-text-fill-color: transparent;
 }
 
-.main__btn {
+.signup__btn {
   font-size: 1.8rem;
   background: #ee9ca7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
@@ -49,14 +186,14 @@
   outline: none;
 }
 
-.main__btn a {
+.signup__btn a {
   position: relative;
   z-index: 2;
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.main__btn:after {
+.signup__btn:after {
   position: absolute;
   content: '';
   top: 0;
@@ -68,10 +205,10 @@
   border-radius: 4px;
 }
 
-.main__btn:hover {
+.signup__btn:hover {
   color: rgb(0, 0, 0);
 }
 
-.main__btn:hover:after {
+.signup__btn:hover:after {
   width: 100%;
 }

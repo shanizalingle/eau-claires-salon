@@ -1,14 +1,17 @@
 @{
   Layout = "_Layout";
 }
-
+<link rel="stylesheet" href="~/css/delete.css">
 @model HairSalon.Models.Client
-
-<h2>Are you sure you want to delete this?</h2>
-
-@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
-@using (Html.BeginForm())
-{
-  <input type="submit" value="Delete" />
-}
-@Html.ActionLink("Back to List", "Index")
+<div class="delete__container">
+  <div class="delete__message">
+    <p>Are you sure you want to delete this?</p>
+  </div>
+  <div class="delete__display">
+    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+    @using (Html.BeginForm())
+    {
+      <button class="delete__btn" type="submit">Submit</button>
+    }
+  </div>
+</div>

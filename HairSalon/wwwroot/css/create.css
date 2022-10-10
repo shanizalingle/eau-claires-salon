@@ -1,0 +1,72 @@
+body {
+  background: #ffe2f2;
+}
+
+.create__container {
+  max-width: 1450px;
+  height: 100%;
+  padding-top: 35px;
+  padding-bottom: 490px;
+}
+
+.create__title h1 {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 7rem;
+  background-color: #000000; /* Fallback for old browsers*/
+  background-image: linear-gradient(to top, #000000 0%, #676767 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.create__form {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.create__btn {
+  margin-top: 15rem;;
+  font-size: 1.8rem;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.create__btn :hover{
+  color:#ff24a0;
+}
+
+.create__btn2 {
+  margin-top: 15rem;;
+  font-size: 1.8rem;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.create__btn2 :hover{
+  color:#ff24a0;
+}

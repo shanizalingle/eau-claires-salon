@@ -1,0 +1,53 @@
+body {
+  background: #ffe2f2;
+}
+
+.delete__container {
+  max-width: 1450px;
+  height: 100%;
+  padding-top: 35px;
+  padding-bottom: 490px;
+}
+
+.delete__message{
+  font-size: 50px;
+  text-align: center;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffb3c9 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffb3c9 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.delete__display{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.delete__btn {
+  margin-top: 15rem;;
+  font-size: 1.8rem;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.delete__btn :hover{
+  color:#ff24a0;
+}

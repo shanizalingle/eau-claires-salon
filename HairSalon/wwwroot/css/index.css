@@ -1,0 +1,80 @@
+.index__container {
+  max-width: 1450px;
+  height: 100%;
+  background-color: #ffe2f2;
+  padding-top: 35px;
+  padding-bottom: 490px;
+}
+
+.index__title h1 {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 7rem;
+  background-color: #000000; /* Fallback for old browsers*/
+  background-image: linear-gradient(to top, #000000 0%, #676767 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.index__list {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.475);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.index__container a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.index__list :hover{
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.index__new__btn {
+  margin-top: 15rem;;
+  margin-left: 40rem;
+  font-size: 1.8rem;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.index__new__btn :hover{
+  color:#ff24a0;
+}
+
+.index__new__btn2 {
+  margin-top: 15rem;;
+  margin-left: 40.5rem;
+  font-size: 1.8rem;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);  
+  background: linear-gradient(to top, #ff71b6 0%, #ffa0bb 100%);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.index__new__btn2 :hover{
+  color:#ff24a0;
+}

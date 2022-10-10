@@ -7,14 +7,14 @@ div#footer {
   left:0px;
   width:100%;
   color:#000000;
-  background-color: #fbc5e2;
+  background-color: #ffe2f2;
   padding:8px;
 }
 
 
 /* Navbar Section */
 .navbar {
-  background: #ffe6f4;
+  background: #ffffff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -37,8 +37,8 @@ div#footer {
 }
 
 #navbar__logo {
-  background-color: #ff3797;
-  background-image: linear-gradient(to top, #ff3797 0%, #ffa7cf 100%);
+  background-color: #000000; /* Fallback for old browsers*/
+  background-image: linear-gradient(to top, #000000 0%, #676767 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -48,7 +48,6 @@ div#footer {
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
-  /* display: flex; */
 }
 
 .navbar__menu {
