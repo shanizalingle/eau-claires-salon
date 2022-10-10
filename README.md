@@ -8,7 +8,8 @@
 
 * _C#_
 * _dotnet_
-* _MSTest_
+* _mySQL_
+* _Entity_
 
 
 ## Description
