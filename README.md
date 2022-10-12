@@ -2,7 +2,7 @@
 
 #### By _**Shaniza Lingle**_
 
-#### _Help Claire manage her employees (stylists) and their clients.._
+#### _Help Claire manage her employees (stylists) and their clients._
 
 ## Technologies Used
 
@@ -18,7 +18,8 @@
 
 _Claire can add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist._
 
-![alt text](https://github.com/shanizalingle/eau-claires-salon/tree/main/HairSalon/wwwroot/img/hair.jpeg?raw=true) 
+
+![screenshot](https://raw.githubusercontent.com/shanizalingle/eau-claires-salon/main/HairSalon/wwwroot/img/screenshot.webp)
 
 
 ## Setup/Installation Requirements
@@ -29,13 +30,22 @@ _Claire can add a list of stylists working at the salon, and for each stylist, a
 * _In VS Code terminal, configure files with the following_
 
 ```json
-  $ dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0' & '$ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
+
+  $ dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
+
+```
+```json
+
+$ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
+
 ```
 
 * _In VS Code terminal, install Lazy Loading with the following_
 
 ```json
+
  $ dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
+
 ```
 * _In VS Code terminal, run " $ dotnet restore "_
 * _Create file names "appsettings.json"_
@@ -58,26 +68,7 @@ _Claire can add a list of stylists working at the salon, and for each stylist, a
 
 ## License
 
-_MIT License_
 
-_Copyright (c) [2022] [Shaniza Lingle]_
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+_[MIT](https://en.wikipedia.org/wiki/MIT_License)_
 
 Copyright (c) _2022_ _Shaniza Lingle_
