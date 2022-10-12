@@ -31,7 +31,7 @@ _Claire can add a list of stylists working at the salon, and for each stylist, a
 
 ```json
 
-  $ dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
+$ dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 
 ```
 ```json
