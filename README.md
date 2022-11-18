@@ -19,12 +19,12 @@
 _Claire can add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist._
 
 
-![screenshot](https://raw.githubusercontent.com/shanizalingle/eau-claires-salon/main/HairSalon/wwwroot/img/screenshot.webp)
+![screenshot](https://raw.githubusercontent.com/shanizalingle/hair-salon/main/HairSalon/wwwroot/img/screenshot.webp)
 
 
 ## Setup/Installation Requirements
 
-* _In your terminal enter, "git clone https://github.com/ShanizaLingle/eau-claires-salon"_
+* _In your terminal enter, "git clone https://github.com/ShanizaLingle/hair-salon"_
 * _Open the directory in Visual Studio Code_
 * _In VS Code terminal, navigate to the HairSalon directory_ 
 * _In VS Code terminal, configure files with the following_
