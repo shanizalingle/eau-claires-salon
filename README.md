@@ -29,12 +29,12 @@ _Claire can add a list of stylists working at the salon, and for each stylist, a
 * _In VS Code terminal, navigate to the HairSalon directory_ 
 * _In VS Code terminal, configure files with the following_
 
-```json
+```
 
 $ dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 
 ```
-```json
+```
 
 $ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 
@@ -42,7 +42,7 @@ $ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 
 * _In VS Code terminal, install Lazy Loading with the following_
 
-```json
+```
 
  $ dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
 
@@ -51,7 +51,7 @@ $ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 * _Create file names "appsettings.json"_
 * _Enter the following into the file_
 
-```json
+```
 {
   "ConnectionStrings": {
       "DefaultConnection": "Server=localhost;Port=3306;database=shaniza_lingle;uid=root;pwd=YOUR_PASSWORD;"
